@@ -29,7 +29,7 @@ a. All the existing buckets the user has created should be given as options, nex
 - Update BASE_URL in todo-frontend/todoapp/src/environment.js if todo-backend not hosted on http://localhost:8000/
 - Create docker image
 > $ docker build -t todoapp:v1 .
-- Run todo-ui webserver
+- Run todo-ui webserver & open http://localhost in browser
 > $ docker run -d -it -p 80:80 todoapp:v1
 
 ## Available Scripts
